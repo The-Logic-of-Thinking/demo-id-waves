@@ -1,0 +1,15 @@
+C:\Users\Alexey\Documents\Visual Studio 2012\Projects\Спонтанная активность\Спонтанная активность\bin\Debug\Спонтанная активность.exe.config
+C:\Users\Alexey\Documents\Visual Studio 2012\Projects\Спонтанная активность\Спонтанная активность\bin\Debug\Спонтанная активность.exe
+C:\Users\Alexey\Documents\Visual Studio 2012\Projects\Спонтанная активность\Спонтанная активность\bin\Debug\Спонтанная активность.pdb
+C:\Users\Alexey\Documents\Visual Studio 2012\Projects\Спонтанная активность\Спонтанная активность\bin\Debug\Спонтанная активность.xml
+C:\Users\Alexey\Documents\Visual Studio 2012\Projects\Спонтанная активность\Спонтанная активность\obj\Debug\WindowsApplication1.Form1.resources
+C:\Users\Alexey\Documents\Visual Studio 2012\Projects\Спонтанная активность\Спонтанная активность\obj\Debug\WindowsApplication1.Resources.resources
+C:\Users\Alexey\Documents\Visual Studio 2012\Projects\Спонтанная активность\Спонтанная активность\obj\Debug\Спонтанная активность.vbproj.GenerateResource.Cache
+C:\Users\Alexey\Documents\Visual Studio 2012\Projects\Спонтанная активность\Спонтанная активность\obj\Debug\Спонтанная активность.exe
+C:\Users\Alexey\Documents\Visual Studio 2012\Projects\Спонтанная активность\Спонтанная активность\obj\Debug\Спонтанная активность.xml
+C:\Users\Alexey\Documents\Visual Studio 2012\Projects\Спонтанная активность\Спонтанная активность\obj\Debug\Спонтанная активность.pdb
+C:\Users\Alexey\Documents\Visual Studio 2013\Projects\Волновая активность\Спонтанная активность\bin\Debug\Спонтанная активность.exe.config
+C:\Users\Alexey\Documents\Visual Studio 2013\Projects\Волновая активность\Спонтанная активность\obj\Debug\Спонтанная активность.exe
+C:\Users\Alexey\Documents\Visual Studio 2013\Projects\Волновая активность\Спонтанная активность\obj\Debug\Спонтанная активность.xml
+C:\Users\Alexey\Documents\Visual Studio 2013\Projects\Волновая активность\Спонтанная активность\obj\Debug\Спонтанная активность.pdb
+C:\Users\Alexey\Documents\Visual Studio 2013\Projects\Волновая активность\Спонтанная активность\bin\Debug\Волновая активность.exe.config

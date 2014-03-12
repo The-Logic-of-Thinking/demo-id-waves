@@ -1,0 +1,10 @@
+C:\Users\Alexey\Documents\Visual Studio 2013\Projects\Волновая активность\Спонтанная активность\bin\Release\Волновая активность.exe.config
+C:\Users\Alexey\Documents\Visual Studio 2013\Projects\Волновая активность\Спонтанная активность\bin\Release\Волновая активность.exe
+C:\Users\Alexey\Documents\Visual Studio 2013\Projects\Волновая активность\Спонтанная активность\bin\Release\Волновая активность.pdb
+C:\Users\Alexey\Documents\Visual Studio 2013\Projects\Волновая активность\Спонтанная активность\bin\Release\Волновая активность.xml
+C:\Users\Alexey\Documents\Visual Studio 2013\Projects\Волновая активность\Спонтанная активность\obj\Release\WindowsApplication1.Form1.resources
+C:\Users\Alexey\Documents\Visual Studio 2013\Projects\Волновая активность\Спонтанная активность\obj\Release\WindowsApplication1.Resources.resources
+C:\Users\Alexey\Documents\Visual Studio 2013\Projects\Волновая активность\Спонтанная активность\obj\Release\Волновая активность.vbproj.GenerateResource.Cache
+C:\Users\Alexey\Documents\Visual Studio 2013\Projects\Волновая активность\Спонтанная активность\obj\Release\Волновая активность.exe
+C:\Users\Alexey\Documents\Visual Studio 2013\Projects\Волновая активность\Спонтанная активность\obj\Release\Волновая активность.xml
+C:\Users\Alexey\Documents\Visual Studio 2013\Projects\Волновая активность\Спонтанная активность\obj\Release\Волновая активность.pdb
