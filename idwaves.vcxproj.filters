@@ -1,0 +1,121 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<Project ToolsVersion="4.0" xmlns="http://schemas.microsoft.com/developer/msbuild/2003">
+  <ItemGroup>
+    <ClCompile Include="idwaves.cpp" />
+    <ClCompile Include="sources\Brain\Brain.Core.ActivePatternsRefresh.cpp">
+      <Filter>sources\Brain</Filter>
+    </ClCompile>
+    <ClCompile Include="sources\Brain\Brain.Core.addpic.cpp">
+      <Filter>sources\Brain</Filter>
+    </ClCompile>
+    <ClCompile Include="sources\Brain\Brain.Core.Calc_Evoked_Activity.cpp">
+      <Filter>sources\Brain</Filter>
+    </ClCompile>
+    <ClCompile Include="sources\Brain\Brain.Core.CalcFields.cpp">
+      <Filter>sources\Brain</Filter>
+    </ClCompile>
+    <ClCompile Include="sources\Brain\Brain.Core.Core.cpp">
+      <Filter>sources\Brain</Filter>
+    </ClCompile>
+    <ClCompile Include="sources\Brain\Brain.Core.Draw_ActAccum.cpp">
+      <Filter>sources\Brain</Filter>
+    </ClCompile>
+    <ClCompile Include="sources\Brain\Brain.Core.Draw_EvokedA.cpp">
+      <Filter>sources\Brain</Filter>
+    </ClCompile>
+    <ClCompile Include="sources\Brain\Brain.Core.Draw_FieldA.cpp">
+      <Filter>sources\Brain</Filter>
+    </ClCompile>
+    <ClCompile Include="sources\Brain\Brain.Core.Draw_Learn.cpp">
+      <Filter>sources\Brain</Filter>
+    </ClCompile>
+    <ClCompile Include="sources\Brain\Brain.Core.Draw_Numbers.cpp">
+      <Filter>sources\Brain</Filter>
+    </ClCompile>
+    <ClCompile Include="sources\Brain\Brain.Core.Draw_RelaxA.cpp">
+      <Filter>sources\Brain</Filter>
+    </ClCompile>
+    <ClCompile Include="sources\Brain\Brain.Core.Draw_Status.cpp">
+      <Filter>sources\Brain</Filter>
+    </ClCompile>
+    <ClCompile Include="sources\Brain\Brain.Core.Draw_WaveA.cpp">
+      <Filter>sources\Brain</Filter>
+    </ClCompile>
+    <ClCompile Include="sources\Brain\Brain.Core.DrawChart.cpp">
+      <Filter>sources\Brain</Filter>
+    </ClCompile>
+    <ClCompile Include="sources\Brain\Brain.Core.InitCore.cpp">
+      <Filter>sources\Brain</Filter>
+    </ClCompile>
+    <ClCompile Include="sources\Brain\Brain.Core.LearnW1.cpp">
+      <Filter>sources\Brain</Filter>
+    </ClCompile>
+    <ClCompile Include="sources\Brain\Brain.Core.MakePicAAvg.cpp">
+      <Filter>sources\Brain</Filter>
+    </ClCompile>
+    <ClCompile Include="sources\Brain\Brain.Core.PatCreate.cpp">
+      <Filter>sources\Brain</Filter>
+    </ClCompile>
+    <ClCompile Include="sources\Brain\Brain.Core.PatternsActivation.cpp">
+      <Filter>sources\Brain</Filter>
+    </ClCompile>
+    <ClCompile Include="sources\Brain\Brain.Core.S0.cpp">
+      <Filter>sources\Brain</Filter>
+    </ClCompile>
+    <ClCompile Include="sources\Brain\Brain.Core.S1.cpp">
+      <Filter>sources\Brain</Filter>
+    </ClCompile>
+    <ClCompile Include="sources\Brain\Brain.Core.SetSens.cpp">
+      <Filter>sources\Brain</Filter>
+    </ClCompile>
+    <ClCompile Include="sources\Brain\Brain.Core.TMove.cpp">
+      <Filter>sources\Brain</Filter>
+    </ClCompile>
+    <ClCompile Include="sources\Brain\Brain.Core.Wave.cpp">
+      <Filter>sources\Brain</Filter>
+    </ClCompile>
+    <ClCompile Include="sources\FormCortexes\FormCortex2.cpp">
+      <Filter>sources\FormCortexes</Filter>
+    </ClCompile>
+    <ClCompile Include="sources\FormCortexes\FormCortex1.cpp">
+      <Filter>sources\FormCortexes</Filter>
+    </ClCompile>
+    <ClCompile Include="sources\stdafx.cpp">
+      <Filter>sources</Filter>
+    </ClCompile>
+  </ItemGroup>
+  <ItemGroup>
+    <ClInclude Include="headers\Brain\Brain.h">
+      <Filter>headers\Brain</Filter>
+    </ClInclude>
+    <ClInclude Include="headers\FormCortexes\FormCortex1.h">
+      <Filter>headers\FormCortexes</Filter>
+    </ClInclude>
+    <ClInclude Include="headers\FormCortexes\FormCortex2.h">
+      <Filter>headers\FormCortexes</Filter>
+    </ClInclude>
+    <ClInclude Include="headers\stdafx.h">
+      <Filter>headers</Filter>
+    </ClInclude>
+  </ItemGroup>
+  <ItemGroup>
+    <Filter Include="sources">
+      <UniqueIdentifier>{d7875a37-bd0d-47ce-a48e-4002e474f85e}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="sources\Brain">
+      <UniqueIdentifier>{007b4aec-29e2-49c0-81cb-4a59fa2446cc}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="sources\FormCortexes">
+      <UniqueIdentifier>{cf95ea8e-a0c5-48b3-9535-7299594d16c5}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="headers">
+      <UniqueIdentifier>{2038a3b1-3c07-46ce-9ab8-aa40d6593a72}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="headers\Brain">
+      <UniqueIdentifier>{7514e924-255f-41d7-a205-60fc49b56786}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="headers\FormCortexes">
+      <UniqueIdentifier>{e53c4bdd-ec0e-49a7-b202-3f8c76ed6190}</UniqueIdentifier>
+    </Filter>
+  </ItemGroup>
+</Project>

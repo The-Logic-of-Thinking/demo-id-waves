@@ -1,0 +1,12 @@
+# Игнорировать следующие файлы:
+
+*.suo
+*.sln
+*.sdf
+*.opensdf
+.gitattributes
+
+# И следующие папки:
+
+Debug/
+Release/
