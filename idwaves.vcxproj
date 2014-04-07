@@ -1,0 +1,116 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<Project DefaultTargets="Build" ToolsVersion="12.0" xmlns="http://schemas.microsoft.com/developer/msbuild/2003">
+  <ItemGroup Label="ProjectConfigurations">
+    <ProjectConfiguration Include="Debug|Win32">
+      <Configuration>Debug</Configuration>
+      <Platform>Win32</Platform>
+    </ProjectConfiguration>
+    <ProjectConfiguration Include="Release|Win32">
+      <Configuration>Release</Configuration>
+      <Platform>Win32</Platform>
+    </ProjectConfiguration>
+  </ItemGroup>
+  <PropertyGroup Label="Globals">
+    <ProjectGuid>{5FD9A981-F870-4E92-87F8-E22FA3FB8995}</ProjectGuid>
+    <TargetFrameworkVersion>v2.0</TargetFrameworkVersion>
+    <Keyword>ManagedCProj</Keyword>
+    <RootNamespace>idwaves</RootNamespace>
+  </PropertyGroup>
+  <Import Project="$(VCTargetsPath)\Microsoft.Cpp.Default.props" />
+  <PropertyGroup Condition="'$(Configuration)|$(Platform)'=='Debug|Win32'" Label="Configuration">
+    <ConfigurationType>Application</ConfigurationType>
+    <UseDebugLibraries>true</UseDebugLibraries>
+    <PlatformToolset>v120</PlatformToolset>
+    <CLRSupport>true</CLRSupport>
+    <CharacterSet>Unicode</CharacterSet>
+  </PropertyGroup>
+  <PropertyGroup Condition="'$(Configuration)|$(Platform)'=='Release|Win32'" Label="Configuration">
+    <ConfigurationType>Application</ConfigurationType>
+    <UseDebugLibraries>false</UseDebugLibraries>
+    <PlatformToolset>v120</PlatformToolset>
+    <CLRSupport>true</CLRSupport>
+    <CharacterSet>Unicode</CharacterSet>
+  </PropertyGroup>
+  <Import Project="$(VCTargetsPath)\Microsoft.Cpp.props" />
+  <ImportGroup Label="ExtensionSettings">
+  </ImportGroup>
+  <ImportGroup Label="PropertySheets" Condition="'$(Configuration)|$(Platform)'=='Debug|Win32'">
+    <Import Project="$(UserRootDir)\Microsoft.Cpp.$(Platform).user.props" Condition="exists('$(UserRootDir)\Microsoft.Cpp.$(Platform).user.props')" Label="LocalAppDataPlatform" />
+  </ImportGroup>
+  <ImportGroup Label="PropertySheets" Condition="'$(Configuration)|$(Platform)'=='Release|Win32'">
+    <Import Project="$(UserRootDir)\Microsoft.Cpp.$(Platform).user.props" Condition="exists('$(UserRootDir)\Microsoft.Cpp.$(Platform).user.props')" Label="LocalAppDataPlatform" />
+  </ImportGroup>
+  <PropertyGroup Label="UserMacros" />
+  <PropertyGroup Condition="'$(Configuration)|$(Platform)'=='Debug|Win32'">
+    <LinkIncremental>true</LinkIncremental>
+  </PropertyGroup>
+  <PropertyGroup Condition="'$(Configuration)|$(Platform)'=='Release|Win32'">
+    <LinkIncremental>false</LinkIncremental>
+  </PropertyGroup>
+  <ItemDefinitionGroup Condition="'$(Configuration)|$(Platform)'=='Debug|Win32'">
+    <ClCompile>
+      <WarningLevel>Level3</WarningLevel>
+      <Optimization>Disabled</Optimization>
+      <PreprocessorDefinitions>WIN32;_DEBUG;%(PreprocessorDefinitions)</PreprocessorDefinitions>
+      <AdditionalOptions>/clr:safe %(AdditionalOptions)</AdditionalOptions>
+    </ClCompile>
+    <Link>
+      <GenerateDebugInformation>true</GenerateDebugInformation>
+      <AdditionalDependencies />
+    </Link>
+  </ItemDefinitionGroup>
+  <ItemDefinitionGroup Condition="'$(Configuration)|$(Platform)'=='Release|Win32'">
+    <ClCompile>
+      <WarningLevel>Level3</WarningLevel>
+      <PreprocessorDefinitions>WIN32;NDEBUG;%(PreprocessorDefinitions)</PreprocessorDefinitions>
+    </ClCompile>
+    <Link>
+      <GenerateDebugInformation>true</GenerateDebugInformation>
+      <AdditionalDependencies />
+    </Link>
+  </ItemDefinitionGroup>
+  <ItemGroup>
+    <ClCompile Include="idwaves.cpp" />
+    <ClCompile Include="sources\Brain\Brain.Core.ActivePatternsRefresh.cpp" />
+    <ClCompile Include="sources\Brain\Brain.Core.addpic.cpp" />
+    <ClCompile Include="sources\Brain\Brain.Core.CalcFields.cpp" />
+    <ClCompile Include="sources\Brain\Brain.Core.Calc_Evoked_Activity.cpp" />
+    <ClCompile Include="sources\Brain\Brain.Core.Core.cpp" />
+    <ClCompile Include="sources\Brain\Brain.Core.DrawChart.cpp" />
+    <ClCompile Include="sources\Brain\Brain.Core.Draw_ActAccum.cpp" />
+    <ClCompile Include="sources\Brain\Brain.Core.Draw_EvokedA.cpp" />
+    <ClCompile Include="sources\Brain\Brain.Core.Draw_FieldA.cpp" />
+    <ClCompile Include="sources\Brain\Brain.Core.Draw_Learn.cpp" />
+    <ClCompile Include="sources\Brain\Brain.Core.Draw_Numbers.cpp" />
+    <ClCompile Include="sources\Brain\Brain.Core.Draw_RelaxA.cpp" />
+    <ClCompile Include="sources\Brain\Brain.Core.Draw_Status.cpp" />
+    <ClCompile Include="sources\Brain\Brain.Core.Draw_WaveA.cpp" />
+    <ClCompile Include="sources\Brain\Brain.Core.InitCore.cpp" />
+    <ClCompile Include="sources\Brain\Brain.Core.LearnW1.cpp" />
+    <ClCompile Include="sources\Brain\Brain.Core.MakePicAAvg.cpp" />
+    <ClCompile Include="sources\Brain\Brain.Core.PatCreate.cpp" />
+    <ClCompile Include="sources\Brain\Brain.Core.PatternsActivation.cpp" />
+    <ClCompile Include="sources\Brain\Brain.Core.S0.cpp" />
+    <ClCompile Include="sources\Brain\Brain.Core.S1.cpp" />
+    <ClCompile Include="sources\Brain\Brain.Core.SetSens.cpp" />
+    <ClCompile Include="sources\Brain\Brain.Core.TMove.cpp" />
+    <ClCompile Include="sources\Brain\Brain.Core.Wave.cpp" />
+    <ClCompile Include="sources\FormCortexes\FormCortex1.cpp" />
+    <ClCompile Include="sources\FormCortexes\FormCortex2.cpp" />
+    <ClCompile Include="sources\stdafx.cpp" />
+  </ItemGroup>
+  <ItemGroup>
+    <ClInclude Include="headers\Brain\Brain.h" />
+    <ClInclude Include="headers\FormCortexes\FormCortex1.h" />
+    <ClInclude Include="headers\FormCortexes\FormCortex2.h" />
+    <ClInclude Include="headers\stdafx.h" />
+  </ItemGroup>
+  <ItemGroup>
+    <Reference Include="System" />
+    <Reference Include="System.Drawing" />
+    <Reference Include="System.Windows.Forms" />
+  </ItemGroup>
+  <Import Project="$(VCTargetsPath)\Microsoft.Cpp.targets" />
+  <ImportGroup Label="ExtensionTargets">
+  </ImportGroup>
+</Project>
